@@ -40,8 +40,7 @@ const BookCard = ({
           </div>
           <Progress 
             value={progress} 
-            className="h-1.5 bg-soft-yellow"
-            indicatorClassName="bg-soft-pink" 
+            className="h-1.5 bg-soft-yellow" 
           />
         </div>
       </div>

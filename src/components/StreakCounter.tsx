@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { Calendar, Streak } from 'lucide-react';
+import { Calendar, Flame } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
 interface StreakCounterProps {
@@ -22,7 +22,7 @@ const StreakCounter = ({ currentStreak = 5, longestStreak = 14 }: StreakCounterP
     <Card className="bg-white border border-soft-pink border-opacity-30 rounded-xl overflow-hidden book-shadow">
       <div className="p-4">
         <h3 className="text-xl mb-4 font-serif flex items-center gap-2">
-          <Streak className="h-5 w-5 text-accent-pink" />
+          <Flame className="h-5 w-5 text-accent-pink" />
           Reading Streak
         </h3>
         
