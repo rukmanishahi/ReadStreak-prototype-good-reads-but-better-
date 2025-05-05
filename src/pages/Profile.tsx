@@ -83,9 +83,9 @@ const Profile = () => {
                 </Avatar>
                 
                 <div className="flex-grow text-center md:text-left">
-                  <h1 className="text-3xl font-serif font-bold">Jane Reader</h1>
-                  <p className="text-text-brown/80 mb-3">@janereader • Joined March 2023</p>
-                  <p className="mb-4">Book lover, fantasy enthusiast, and aspiring writer. Currently reading The Midnight Library.</p>
+                  <h1 className="text-3xl font-serif font-bold">Rukmani Warner</h1>
+                  <p className="text-text-brown/80 mb-3">@warnerrukmani • Joined March 2023</p>
+                  <p className="mb-4">Book lover, and aspiring writer. Currently reading The White Nights.</p>
                   <Button variant="outline" className="border-soft-pink hover:bg-soft-pink hover:text-primary-foreground">
                     Edit Profile
                   </Button>
